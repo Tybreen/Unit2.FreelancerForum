@@ -65,10 +65,14 @@ const render = () => {
 
 const addFreelancer = () => {
 
-  
-
   let currentFreelancer = freelancers[Math.floor(Math.random() * freelancers.length)];
   let inSiteAlready = freelancersInSite.find((freelancer) => freelancer.name === currentFreelancer.name);
+
+  /*
+  I added some extra functionality where it would stop once we put the entire list on the page.
+  Also, I added some functionality where it wouldn't repeat any names.
+  If you like to me to get rid of it, let me know.
+  */
 
   while(true) {
     if(inSiteAlready === undefined) {
