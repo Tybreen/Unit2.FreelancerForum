@@ -1,0 +1,30 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#freelancers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.category {
+  display: flex;
+  flex-direction: column;
+}
+.category > ul {
+  padding: 0px;
+  text-align: left;
+}
+/* 
+#name > ul{
+  color: chartreuse;
+}
+#occupation > ul {
+  color: green;
+}
+#startingPrice > ul {
+  color: brown;
+} 
+*/
